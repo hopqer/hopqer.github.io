@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=windows-1252"><meta name="robots" content="noindex">
+     
+     <link rel="shortcut icon" type="~/image/x-icon" href="https://hopper.neocities.org/gallery/~/favicon.ico">
+      <title>hopperbot art samples</title>
+
+<style>
+
+@font-face {
+  font-family: 'Spartan';
+  src: url(LeagueSpartan-VF.woff2) format('woff2');
+  font-weight: 200 900;
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Spartan, 'Avenir Next', 'Tw Cen MT', sans-serif;
+  font-size: 1em;
+  line-height: 1.5;
+  background: #fff;
+  color: #312e1f;
+
+}
+
+/* unvisited link */
+a:link {
+  color: #c2cca6;
+  text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+  color: #80b0c8;
+  text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+  color: #dde2bc;
+  text-decoration: underline;
+}
+
+img {
+  border-radius: 3%;
+}
+
+.header {
+  text-align: center;
+  padding: 20px;
+  color: #ebebeb; 
+  background: #312e1f; 
+  margin: 0 auto;
+}
+
+h1 {
+  font-family: STSong, 'Bell MT', 'Iowan Old Style', Georgia, serif;
+  font-variant: normal;
+}
+
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create n equal columns that sits next to each other */
+.column {
+  -ms-flex: 16.6%; /* IE10 */
+  flex: 16.6%;
+  max-width: 16.6%;
+  padding: 0 4px;
+  overflow: auto;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Responsive layout - makes a 3 column-layout instead of 6 columns */
+@media screen and (max-width: 1000px) {
+  .column {
+    -ms-flex: 33%;
+    flex: 33%;
+    max-width: 33%;
+  }
+}
+
+/* Responsive layout - makes a 2 column-layout instead of 6 columns */
+@media screen and (max-width: 680px) {
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+/** LIGHTBOX MARKUP **/
+
+.lightbox {
+  /* Default to hidden */
+  display: none;
+
+  /* Overlay entire screen */
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  
+  /* A bit of padding around image */
+  padding: 1em;
+
+  /* Translucent background */
+  background: rgba(0, 0, 0, 0.65);
+}
+
+/* Unhide the lightbox when it's the target */
+.lightbox:target {
+  display: block;
+}
+
+.lightbox span {
+  /* Full width and height */
+  display: block;
+  width: 500px;
+  height: 100%;
+  margin: 0 auto;
+
+  /* Size and position background image */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+</style>
+</head><body>
+
+<!-- Header -->
+<div class="header">
+  <h1>hopperb.o.t. &#183; <em>hopper &amp; the books on tape</em></h1>
+  <p><a target="_blank" href="https://twitter.com/hopqer">@hopqer</a> (twt) &#183; <a target="_blank" href="https://instagram.com/hopperbot">@hopperbot</a> (ins)  &#183; <a target="_blank" href="https://hopperbot.tumblr.com/">@hopperbot</a> (tum) &#183; planetmossflower (gmail) </p>
+  <p style="font-variant: small-caps;">original chara&#10209;story | comic&#10209;novel illus | au&#10209;parody&#10209;fanart</p>
+</div>
+
+<!-- Photo Grid -->
+<div class="row"> 
+  <div class="column" name="COL1">
+  
+  <!-- thumbnail image wrapped in a link -->
+    <a href="#img1">
+      <img src="image_files/01.jpeg">
+    </a>
+    
+    <!-- lightbox container hidden with CSS -->
+    <a href="#_" class="lightbox" id="img1">
+      <span style="background-image: url('images/01.jpeg')"></span>
+    </a>
+    
+    <a href="#img2"><img src="image_files/02.png"></a>
+    <a href="#_" class="lightbox" id="img2"><span style="background-image: url('images/02.png')"></span></a>
+    
+    <a href="#img3"><img src="image_files/03.png"></a>
+    <a href="#_" class="lightbox" id="img3"><span style="background-image: url('images/03.png')"></span></a>
+    
+    <a href="#img17"><img src="image_files/17.png"></a>
+    <a href="#_" class="lightbox" id="img17"><span style="background-image: url('images/17.png')"></span></a>
+    
+    <a href="#img5"><img src="image_files/05.png"></a>
+    <a href="#_" class="lightbox" id="img5"><span style="background-image: url('images/05.png')"></span></a>
+    
+    <a href="#img6"><img src="image_files/06.png"></a>
+    <a href="#_" class="lightbox" id="img6"><span style="background-image: url('images/06.png')"></span></a>
+    
+    <a href="#img7"><img src="image_files/07.png"></a>
+    <a href="#_" class="lightbox" id="img7"><span style="background-image: url('images/07.png')"></span></a>
+    
+    <a href="#img8"><img src="image_files/08.png"></a>
+    <a href="#_" class="lightbox" id="img8"><span style="background-image: url('images/08.png')"></span></a>
+    
+    <a href="#img9"><img src="image_files/09.png"></a>
+    <a href="#_" class="lightbox" id="img9"><span style="background-image: url('images/09.png')"></span></a>
+    
+    <a href="#img24"><img src="image_files/24.png"></a>
+    <a href="#_" class="lightbox" id="img24"><span style="background-image: url('images/24.png')"></span></a>
+    
+    <a href="#img34"><img src="image_files/34.png"></a>
+    <a href="#_" class="lightbox" id="img34"><span style="background-image: url('images/34.png')"></span></a>
+    
+  </div>  
+  
+  <div class="column" name="COL2">  
+    
+    <a href="#img11"><img src="image_files/11.png"></a>
+    <a href="#_" class="lightbox" id="img11"><span style="background-image: url('images/11.png')"></span></a>
+    
+    <a href="#img12"><img src="image_files/12.png"></a>
+    <a href="#_" class="lightbox" id="img12"><span style="background-image: url('images/12.png')"></span></a>
+    
+    <a href="#img10"><img src="image_files/10.jpg"></a>
+    <a href="#_" class="lightbox" id="img10"><span style="background-image: url('images/10.jpg')"></span></a>
+    
+    <a href="#img40"><img src="image_files/40.png"></a>
+    <a href="#_" class="lightbox" id="img40"><span style="background-image: url('images/40.png')"></span></a>
+    
+    <a href="#img56"><img src="image_files/56.png"></a>
+    <a href="#_" class="lightbox" id="img56"><span style="background-image: url('images/56.png')"></span></a>
+    
+    <a href="#img16"><img src="image_files/16.png"></a>
+    <a href="#_" class="lightbox" id="img16"><span style="background-image: url('images/16.png')"></span></a>
+    
+    <a href="#img45"><img src="image_files/45.png"></a>
+    <a href="#_" class="lightbox" id="img45"><span style="background-image: url('images/45.png')"></span></a>
+    
+    <a href="#img29"><img src="image_files/29.png"></a>
+    <a href="#_" class="lightbox" id="img29"><span style="background-image: url('images/29.png')"></span></a>
+    
+    <a href="#img43"><img src="image_files/43.png"></a>
+    <a href="#_" class="lightbox" id="img43"><span style="background-image: url('images/43.png')"></span></a>
+
+    <a href="#img53"><img src="image_files/53.jpg"></a>
+    <a href="#_" class="lightbox" id="img53"><span style="background-image: url('images/53.jpg')"></span></a>
+    
+    <a href="#img18"><img src="image_files/18.png"></a>
+    <a href="#_" class="lightbox" id="img18"><span style="background-image: url('images/18.png')"></span></a>
+    
+  </div>  
+  
+  <div class="column" name="COL3">
+    
+    <a href="#img4"><img src="image_files/04.png"></a>
+    <a href="#_" class="lightbox" id="img4"><span style="background-image: url('images/04.png')"></span></a>
+    
+    <a href="#img20"><img src="image_files/20.jpg"></a>
+    <a href="#_" class="lightbox" id="img20"><span style="background-image: url('images/20.jpg')"></span></a>
+
+    <a href="#img46"><img src="image_files/46.png"></a>
+    <a href="#_" class="lightbox" id="img46"><span style="background-image: url('images/46.png')"></span></a>
+
+    <a href="#img47"><img src="image_files/47.png"></a>
+    <a href="#_" class="lightbox" id="img47"><span style="background-image: url('images/47.png')"></span></a>
+
+    <a href="#img41"><img src="image_files/41.png"></a>
+    <a href="#_" class="lightbox" id="img41"><span style="background-image: url('images/41.png')"></span></a>
+
+    <a href="#img23"><img src="image_files/23.png"></a>
+    <a href="#_" class="lightbox" id="img23"><span style="background-image: url('images/23.png')"></span></a>
+
+    <a href="#img13"><img src="image_files/13.png"></a>
+    <a href="#_" class="lightbox" id="img13"><span style="background-image: url('images/13.png')"></span></a>
+    
+    <a href="#img63"><img src="image_files/63.jpg"></a>
+    <a href="#_" class="lightbox" id="img63"><span style="background-image: url('images/63.jpg')"></span></a>
+      
+    <a href="#img54"><img src="image_files/54.png"></a>
+    <a href="#_" class="lightbox" id="img54"><span style="background-image: url('images/54.png')"></span></a>
+    
+    <a href="#img57"><img src="image_files/57.png"></a>
+    <a href="#_" class="lightbox" id="img57"><span style="background-image: url('images/57.png')"></span></a>  
+  
+  </div>  
+  
+  <div class="column" name="COL4">  
+    
+    <a href="#img59"><img src="image_files/59.png"></a>
+    <a href="#_" class="lightbox" id="img59"><span style="background-image: url('images/59.png')"></span></a>
+    
+    <a href="#img60"><img src="image_files/60.jpg"></a>
+    <a href="#_" class="lightbox" id="img60"><span style="background-image: url('images/60.jpg')"></span></a>
+    
+    <a href="#img62"><img src="image_files/62.png"></a>
+    <a href="#_" class="lightbox" id="img62"><span style="background-image: url('images/62.png')"></span></a>
+    
+    <a href="#img25"><img src="image_files/25.png"></a>
+    <a href="#_" class="lightbox" id="img25"><span style="background-image: url('images/25.png')"></span></a>
+    
+    <a href="#img64"><img src="image_files/64.png"></a>
+    <a href="#_" class="lightbox" id="img64"><span style="background-image: url('images/64.png')"></span></a>
+    
+    <a href="#img51"><img src="image_files/51.png"></a>
+    <a href="#_" class="lightbox" id="img51"><span style="background-image: url('images/51.png')"></span></a>
+    
+    <a href="#img52"><img src="image_files/52.png"></a>
+    <a href="#_" class="lightbox" id="img52"><span style="background-image: url('images/52.png')"></span></a>
+    
+    <a href="#img48"><img src="image_files/48.png"></a>
+    <a href="#_" class="lightbox" id="img48"><span style="background-image: url('images/48.png')"></span></a>
+    
+    <a href="#img49"><img src="image_files/49.png"></a>
+    <a href="#_" class="lightbox" id="img49"><span style="background-image: url('images/49.png')"></span></a>
+    
+    <a href="#img33"><img src="image_files/33.png"></a>
+    <a href="#_" class="lightbox" id="img33"><span style="background-image: url('images/33.png')"></span></a>
+        
+    <a href="#img26"><img src="image_files/26.jpg"></a>
+    <a href="#_" class="lightbox" id="img26"><span style="background-image: url('images/26.jpg')"></span></a>
+    
+    <a href="#img15"><img src="image_files/15.png"></a>
+    <a href="#_" class="lightbox" id="img15"><span style="background-image: url('images/15.png')"></span></a>
+        
+  </div>  
+  
+  <div class="column" name="COL5">  
+  
+    <a href="#img61"><img src="image_files/61.gif"></a>
+    <a href="#_" class="lightbox" id="img61"><span style="background-image: url('images/61.gif')"></span></a>
+    
+    <a href="#img55"><img src="image_files/55.png"></a>
+    <a href="#_" class="lightbox" id="img55"><span style="background-image: url('images/55.png')"></span></a>
+    
+    <a href="#img28"><img src="image_files/28.png"></a>
+    <a href="#_" class="lightbox" id="img28"><span style="background-image: url('images/28.png')"></span></a>
+    
+    <a href="#img38"><img src="image_files/38.png"></a>
+    <a href="#_" class="lightbox" id="img38"><span style="background-image: url('images/38.png')"></span></a>
+    
+    <a href="#img39"><img src="image_files/39.png"></a>
+    <a href="#_" class="lightbox" id="img39"><span style="background-image: url('images/39.png')"></span></a>
+        
+    <a href="#img58"><img src="image_files/58.jpg"></a>
+    <a href="#_" class="lightbox" id="img58"><span style="background-image: url('images/58.jpg')"></span></a>
+    
+    <a href="#img14"><img src="image_files/14.png"></a>
+    <a href="#_" class="lightbox" id="img14"><span style="background-image: url('images/14.png')"></span></a>
+    
+    <a href="#img44"><img src="image_files/44.png"></a>
+    <a href="#_" class="lightbox" id="img44"><span style="background-image: url('images/44.png')"></span></a>
+    
+    <a href="#img32"><img src="image_files/32.png"></a>
+    <a href="#_" class="lightbox" id="img32"><span style="background-image: url('images/32.png')"></span></a>
+    
+    <a href="#img21"><img src="image_files/21.png"></a>
+    <a href="#_" class="lightbox" id="img21"><span style="background-image: url('images/21.png')"></span></a>
+    
+  </div>
+  
+  <div class="column" name="COL6">
+  
+    <a href="#img37"><img src="image_files/37.png"></a>
+    <a href="#_" class="lightbox" id="img37"><span style="background-image: url('images/37.png')"></span></a>
+    
+    <a href="#img50"><img src="image_files/50.png"></a>
+    <a href="#_" class="lightbox" id="img50"><span style="background-image: url('images/50.png')"></span></a>
+    
+    <a href="#img30"><img src="image_files/30.png"></a>
+    <a href="#_" class="lightbox" id="img30"><span style="background-image: url('images/30.png')"></span></a>
+    
+    <a href="#img35"><img src="image_files/35.png"></a>
+    <a href="#_" class="lightbox" id="img35"><span style="background-image: url('images/35.png')"></span></a>
+    
+    <a href="#img36"><img src="image_files/36.png"></a>
+    <a href="#_" class="lightbox" id="img36"><span style="background-image: url('images/36.png')"></span></a>
+    
+    <a href="#img31"><img src="image_files/31.png"></a>
+    <a href="#_" class="lightbox" id="img31"><span style="background-image: url('images/31.png')"></span></a>
+    
+    <a href="#img27"><img src="image_files/27.png"></a>
+    <a href="#_" class="lightbox" id="img27"><span style="background-image: url('images/27.png')"></span></a>
+    
+    <a href="#img22"><img src="image_files/22.jpg"></a>
+    <a href="#_" class="lightbox" id="img22"><span style="background-image: url('images/22.jpg')"></span></a>
+    
+    <a href="#img42"><img src="image_files/42.png"></a>
+    <a href="#_" class="lightbox" id="img42"><span style="background-image: url('images/42.png')"></span></a>
+    
+    <a href="#img19"><img src="image_files/19.jpg"></a>
+    <a href="#_" class="lightbox" id="img19"><span style="background-image: url('images/19.jpg')"></span></a>
+      
+  </div>
+</div>
+
+
+
+
+</body></html>
